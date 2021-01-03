@@ -10,10 +10,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Message/>
-       {/* <Greet name="Bruce" heroName="Batman"> 
+        <Greet name="Bruce" heroName="Batman"> 
           <p>This is children</p>
        </Greet>
-       <Greet name="Clark" heroName="Superman"> 
+       {/*<Greet name="Clark" heroName="Superman"> 
         <button> Action </button>
        </Greet>
        
