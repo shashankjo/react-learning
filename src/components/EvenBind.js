@@ -6,9 +6,15 @@ class EvenBind extends Component {
         this.state = {
             message: "Welcome Visitor"
         }
-        this.clickHandler = this.clickHandler.bind(this)
+        //this.clickHandler = this.clickHandler.bind(this)
     }
-    clickHandler() {
+    // clickHandler() {
+    //     this.setState({
+    //         message: "Goodbye Visitor !!"
+    //     })
+    // }
+
+    clickHandler = () => {
         this.setState({
             message: "Goodbye Visitor !!"
         })
@@ -22,7 +28,11 @@ class EvenBind extends Component {
                 {/* // second approach. Arrow in render method */}
                 <button onClick={() => this.clickHandler()}>Click Me</button> <br/>
                 {/* // third approach . Most commonly used in big projects. Binding in constructor. */}
-                <button onClick={this.clickHandler}>Click Me</button> 
+                <button onClick={this.clickHandler}>Click Me</button> <br/>
+                {/* // fourth approach. Still in dev phase */}
+                <button onClick={this.clickHandler}>Click Me</button>
+
+                {/* //third approach should always be used */}
             </div>
         );
     }
