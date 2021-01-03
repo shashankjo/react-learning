@@ -5,6 +5,7 @@ import Welcome from './components/Welcome'
 import Message from './components/Message'
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
+import EvenBind from './components/EvenBind';
 
 function App() {
   return (
@@ -23,8 +24,9 @@ function App() {
        <Greet name="Diana" heroName="Wonder woman"/>
        <Welcome name="Clark" heroName="Superman"/>
        <Welcome name="Diana" heroName="Wonder woman"/> */}
-       <FunctionClick/>
-       <ClassClick/>
+       {/* <FunctionClick/>
+       <ClassClick/> */}
+       <EvenBind/>
       </header>
     </div>
   );
