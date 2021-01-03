@@ -4,7 +4,8 @@ import React from 'react'
 //  return <h1> Hello Shashank is learning React</h1>
 // }
 
-const Greet = ({name, heroName, children}) => {
+const Greet = (props) => {
+    const {name, heroName, children} = props
     return (
         <div>
             <h1> Functional Component {name} aka {heroName}!!</h1>
