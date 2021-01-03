@@ -13,12 +13,12 @@ function App() {
         <Greet name="Bruce" heroName="Batman"> 
           <p>This is children</p>
        </Greet>
+       <Welcome name="Bruce" heroName="Batman"/>
        {/*<Greet name="Clark" heroName="Superman"> 
         <button> Action </button>
        </Greet>
        
        <Greet name="Diana" heroName="Wonder woman"/>
-       <Welcome name="Bruce" heroName="Batman"/>
        <Welcome name="Clark" heroName="Superman"/>
        <Welcome name="Diana" heroName="Wonder woman"/> */}
       </header>
