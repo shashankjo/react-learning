@@ -5,7 +5,7 @@ export function Childcomponent(props) {
 
     return (
         <>
-            <button onClick={props.greetHandler}> Greet Parent</button>
+            <button onClick={() => props.greetHandler('your child')}> Greet Parent</button>
         </>
     )
 }
