@@ -6,6 +6,7 @@ import Message from './components/Message'
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
 import EvenBind from './components/EvenBind';
+import ParentComponent from './components/ParentComponent';
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
        <Welcome name="Diana" heroName="Wonder woman"/> */}
        {/* <FunctionClick/>
        <ClassClick/> */}
-       <EvenBind/>
+       {/* <EvenBind/> */}
+       <ParentComponent />
       </header>
     </div>
   );
