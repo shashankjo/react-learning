@@ -8,6 +8,7 @@ import ClassClick from './components/ClassClick';
 import EvenBind from './components/EvenBind';
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
+import { Namelist } from './components/NameList';
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
        <ClassClick/> */}
        {/* <EvenBind/> */}
        {/* <ParentComponent /> */}
-       <UserGreeting/>
+       {/* <UserGreeting/> */}
+       <Namelist />
       </header>
     </div>
   );
