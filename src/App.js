@@ -7,6 +7,7 @@ import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
 import EvenBind from './components/EvenBind';
 import ParentComponent from './components/ParentComponent';
+import UserGreeting from './components/UserGreeting';
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
        {/* <FunctionClick/>
        <ClassClick/> */}
        {/* <EvenBind/> */}
-       <ParentComponent />
+       {/* <ParentComponent /> */}
+       <UserGreeting/>
       </header>
     </div>
   );
