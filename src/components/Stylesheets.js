@@ -5,6 +5,6 @@ export function Stylesheets(props) {
     let className = props.primary ? 'primary' : ''
 
     return (
-        <h1 class={className}> Stylesheets </h1>
+        <h1 class={`${className} font-xl`}> Stylesheets </h1>
     )
 }
