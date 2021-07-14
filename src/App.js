@@ -34,7 +34,7 @@ function App() {
        {/* <ParentComponent /> */}
        {/* <UserGreeting/> */}
        {/* <Namelist /> */}
-       <Stylesheets />
+       <Stylesheets primary = {true} />
       </header>
     </div>
   );
