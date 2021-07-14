@@ -9,6 +9,7 @@ import EvenBind from './components/EvenBind';
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
 import { Namelist } from './components/NameList';
+import { Stylesheets } from './components/Stylesheets';
 
 function App() {
   return (
@@ -32,7 +33,8 @@ function App() {
        {/* <EvenBind/> */}
        {/* <ParentComponent /> */}
        {/* <UserGreeting/> */}
-       <Namelist />
+       {/* <Namelist /> */}
+       <Stylesheets />
       </header>
     </div>
   );
