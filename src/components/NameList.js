@@ -22,7 +22,7 @@ export function Namelist() {
             skill: 'Vue'
          } 
         ]
-    const personList = persons.map(person => <Person person = {person} />)
+    const personList = persons.map(person => <Person key = {person.id} person = {person} />)
 
     return (
        <div> {personList} </div>
