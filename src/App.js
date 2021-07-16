@@ -11,6 +11,8 @@ import UserGreeting from './components/UserGreeting';
 import { Namelist } from './components/NameList';
 import { Stylesheets } from './components/Stylesheets';
 import Inline from './components/Inline';
+import './appStyles.css'
+import styles from './appStyles.module.css'
 
 function App() {
   return (
@@ -37,6 +39,8 @@ function App() {
        {/* <Namelist /> */}
        {/* <Stylesheets primary = {true} /> */}
        <Inline />
+       <h1 className='error'> Error </h1>
+       <h1 className={styles.success}> Success </h1>
       </header>
     </div>
   );
