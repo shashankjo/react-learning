@@ -15,6 +15,7 @@ import './appStyles.css'
 import styles from './appStyles.module.css'
 import Form from './components/Form';
 import LifecycleA from './components/LifecycleA';
+import LifecycleUpdate from './components/LifecycleUpdate';
 
 function App() {
   return (
@@ -44,7 +45,8 @@ function App() {
        <h1 className='error'> Error </h1>
        <h1 className={styles.success}> Success </h1> */}
        {/* <Form /> */}
-       <LifecycleA />
+       {/* <LifecycleA /> */}
+       <LifecycleUpdate />
       </header>
     </div>
   );
