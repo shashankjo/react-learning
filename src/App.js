@@ -18,6 +18,7 @@ import LifecycleA from './components/LifecycleA';
 import LifecycleUpdate from './components/LifecycleUpdate';
 import FragmentDemo from './components/FragmentDemo';
 import RefsDemo from './components/RefsDemo';
+import FocusInput from './components/FocusInput';
 
 function App() {
   return (
@@ -50,7 +51,8 @@ function App() {
        {/* <LifecycleA /> */}
        {/* <LifecycleUpdate /> */}
        {/* <FragmentDemo /> */}
-       <RefsDemo />
+       {/* <RefsDemo /> */}
+       <FocusInput />
       </header>
     </div>
   );
