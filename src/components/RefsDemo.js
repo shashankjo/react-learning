@@ -5,11 +5,20 @@ class RefsDemo extends Component {
     super(props)
   
     this.inputRef = React.createRef()
+    this.cbRef = null  // callbacks refs is an older way to create refs in React
+		this.setCbRef = element => {
+			this.cbRef = element
+		}
   }
 
   componentDidMount() {
-    this.inputRef.current.focus()
-    console.log(this.inputRef)
+    // this.inputRef.current.focus()
+    // console.log(this.inputRef)
+
+    console.log(this.cbRef)
+		if(this.cbRef) {
+			this.cbRef.focus()
+		}
   }
 
   clickHandler = () => {
@@ -20,6 +29,7 @@ class RefsDemo extends Component {
     return (
       <div>
         <input type="text" ref={this.inputRef} />
+        <input type="text" ref={this.setCbRef} />
         <button onClick={this.clickHandler}>Click</button>
       </div>
     )
