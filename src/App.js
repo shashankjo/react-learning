@@ -17,6 +17,7 @@ import Form from './components/Form';
 import LifecycleA from './components/LifecycleA';
 import LifecycleUpdate from './components/LifecycleUpdate';
 import FragmentDemo from './components/FragmentDemo';
+import RefsDemo from './components/RefsDemo';
 
 function App() {
   return (
@@ -48,7 +49,8 @@ function App() {
        {/* <Form /> */}
        {/* <LifecycleA /> */}
        {/* <LifecycleUpdate /> */}
-       <FragmentDemo />
+       {/* <FragmentDemo /> */}
+       <RefsDemo />
       </header>
     </div>
   );
