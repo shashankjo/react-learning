@@ -19,6 +19,7 @@ import LifecycleUpdate from './components/LifecycleUpdate';
 import FragmentDemo from './components/FragmentDemo';
 import RefsDemo from './components/RefsDemo';
 import FocusInput from './components/FocusInput';
+import ForwardingRefParentInput from './components/ForwardingRefParentInput';
 
 function App() {
   return (
@@ -52,7 +53,8 @@ function App() {
        {/* <LifecycleUpdate /> */}
        {/* <FragmentDemo /> */}
        {/* <RefsDemo /> */}
-       <FocusInput />
+       {/* <FocusInput /> */}
+       <ForwardingRefParentInput />
       </header>
     </div>
   );
