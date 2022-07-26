@@ -20,6 +20,7 @@ import FragmentDemo from './components/FragmentDemo';
 import RefsDemo from './components/RefsDemo';
 import FocusInput from './components/FocusInput';
 import ForwardingRefParentInput from './components/ForwardingRefParentInput';
+import PortalDemo from './components/PortalDemo';
 
 function App() {
   return (
@@ -54,7 +55,8 @@ function App() {
        {/* <FragmentDemo /> */}
        {/* <RefsDemo /> */}
        {/* <FocusInput /> */}
-       <ForwardingRefParentInput />
+       {/* <ForwardingRefParentInput /> */}
+       <PortalDemo/>
       </header>
     </div>
   );
