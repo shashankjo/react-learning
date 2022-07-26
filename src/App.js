@@ -21,6 +21,8 @@ import RefsDemo from './components/RefsDemo';
 import FocusInput from './components/FocusInput';
 import ForwardingRefParentInput from './components/ForwardingRefParentInput';
 import PortalDemo from './components/PortalDemo';
+import ErrorBoundaryDemo from './components/ErrorBoundaryDemo';
+import Hero from './components/Hero';
 
 function App() {
   return (
@@ -56,7 +58,16 @@ function App() {
        {/* <RefsDemo /> */}
        {/* <FocusInput /> */}
        {/* <ForwardingRefParentInput /> */}
-       <PortalDemo/>
+       {/* <PortalDemo/> */}
+       <ErrorBoundaryDemo>
+        <Hero heroName='Batman'/>
+       </ErrorBoundaryDemo>
+       <ErrorBoundaryDemo>
+        <Hero heroName='Superman'/>
+       </ErrorBoundaryDemo>
+       <ErrorBoundaryDemo>
+        <Hero heroName='Joker'/>
+       </ErrorBoundaryDemo>
       </header>
     </div>
   );
