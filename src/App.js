@@ -23,6 +23,8 @@ import ForwardingRefParentInput from './components/ForwardingRefParentInput';
 import PortalDemo from './components/PortalDemo';
 import ErrorBoundaryDemo from './components/ErrorBoundaryDemo';
 import Hero from './components/Hero';
+import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
 
 function App() {
   return (
@@ -59,7 +61,7 @@ function App() {
        {/* <FocusInput /> */}
        {/* <ForwardingRefParentInput /> */}
        {/* <PortalDemo/> */}
-       <ErrorBoundaryDemo>
+       {/* <ErrorBoundaryDemo>
         <Hero heroName='Batman'/>
        </ErrorBoundaryDemo>
        <ErrorBoundaryDemo>
@@ -67,7 +69,9 @@ function App() {
        </ErrorBoundaryDemo>
        <ErrorBoundaryDemo>
         <Hero heroName='Joker'/>
-       </ErrorBoundaryDemo>
+       </ErrorBoundaryDemo> */}
+       <ClickCounter name='Shashank' />   
+       <HoverCounter />
       </header>
     </div>
   );
